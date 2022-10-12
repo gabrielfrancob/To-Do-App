@@ -1,0 +1,35 @@
+.item_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #424242;
+    margin: 10px 0px 0px 0px;
+}
+
+.item_container input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+.item_container p {
+    font-size: 1.2em;
+}
+
+.item_container button {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: x-large;
+    background-color: transparent;
+    border: none;
+}
+
+.item_container button:hover{
+    cursor: pointer;
+}
