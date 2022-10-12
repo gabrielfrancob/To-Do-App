@@ -1,6 +1,8 @@
 
 import { useState } from "react"
 
+import styles from "./NewItem.module.css"
+
 export default function NewItem({ handleSubmit }) {
 
     const [item, setItem] = useState()

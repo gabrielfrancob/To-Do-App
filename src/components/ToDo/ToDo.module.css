@@ -18,6 +18,7 @@
 
 .todo_container h1{
     text-align: center;
+    pointer-events: none;
 }
 
 .todo_container h2{
@@ -47,15 +48,3 @@
 .todo_container .header button:hover{
     cursor: pointer;
 }
-
-.input{
-    
-}
-
-
-
-
-
-
-
-
