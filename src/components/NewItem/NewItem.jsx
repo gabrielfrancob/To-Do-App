@@ -18,7 +18,7 @@ export default function NewItem({ handleSubmit }) {
     }
 
     return (
-        <form onSubmit={submit}>
+        <form onSubmit={submit} className={styles}>
             <input
                 type="text"
                 onChange={handleChange}

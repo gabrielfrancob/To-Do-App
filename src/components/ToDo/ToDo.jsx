@@ -39,7 +39,6 @@ export default function ToDo() {
 
     useEffect(() => {
         api.get('/').then(resp => {
-            console.log(resp.data)
             setTodo(resp.data)
         })
     }, [])
